@@ -1,0 +1,9 @@
+.venv
+shards
+census2020_block2020
+old_block2020
+make_prototile_zoom
+prototiles.2020
+tmp*
+shuffle_records
+__pycache__

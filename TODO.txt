@@ -1,0 +1,15 @@
+Phase 1: Create and test prototiles.2020
+
+DONE - Create all float32 colums
+DONE - Don't redo an already done table
+DONE - Rsync float32 columns 
+DONE - Get for 1990, 2000, 2010 p001001.2020.float32 from Harry
+DONE - Compute pop maxes from 1990...2020
+DONE - Capture maximum population(1990 ... 2020) in postgres
+DONE - Implement dot generation in postgis
+DONE - Workaround for postgis dot generation quantity bug
+DONE - Implement projection to web-mercator 0-256 in postgis
+DONE - Shard calls to postgis and write into memory-mapped prototiles_all_dots
+DONE - Implement point shuffling in c++
+DONE - Create prototiles.2020
+- Test prototiles.2020
