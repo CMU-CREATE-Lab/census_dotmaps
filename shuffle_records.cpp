@@ -5,10 +5,12 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <assert.h>
 
 const size_t recordSize = 16;
 
 int main(int argc, char *argv[]) {
+    assert(sizeof(__int128_t) == recordSize);
     if (argc != 2) {
         std::cerr << "Usage: " << argv[0] << " <file>\n";
         return 1;
@@ -32,6 +34,7 @@ int main(int argc, char *argv[]) {
     }
 
     __int128_t *map = static_cast<__int128_t*>(mmap(0, fileInfo.st_size, PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0));
+    assert (sizeof(map[0]) == recordSize);
     if (map == MAP_FAILED) {
         close(fd);
         perror("Error mmapping the file");

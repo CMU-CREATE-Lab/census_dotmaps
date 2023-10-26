@@ -1,0 +1,16 @@
+{
+    "plpgsqlLanguageServer.database": "earthtime",
+    "plpgsqlLanguageServer.user": "rsargent",
+    "plpgsqlLanguageServer.password": "pga4hse-eqt",
+    "pgsql.connections": [
+        {
+            "label": "yoyodyne",
+            "applicationName": "yoyodyne",
+            "dbname": "earthtime",
+            "server": "localhost",
+            "database": "earthtime",
+            "user": "rsargent",
+            "password": "pga4hse-eqt"
+        }
+    ]
+}

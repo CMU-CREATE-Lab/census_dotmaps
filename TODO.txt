@@ -1,3 +1,10 @@
+Phase 2: Test prototiles.2020
+
+Create single block's worth of dots and see where they lie
+
+
+
+
 Phase 1: Create and test prototiles.2020
 
 DONE - Create all float32 colums
@@ -12,4 +19,3 @@ DONE - Implement projection to web-mercator 0-256 in postgis
 DONE - Shard calls to postgis and write into memory-mapped prototiles_all_dots
 DONE - Implement point shuffling in c++
 DONE - Create prototiles.2020
-- Test prototiles.2020
